@@ -1,0 +1,162 @@
+
+
+body { 
+    font-family: sans-serif;
+    background-color: #0044ff;
+    color: white;
+}
+
+/* Style the header */
+.header {
+    padding: 10px 2px;
+    background: #0044ff;
+    color: #f1f1f1;
+    text-align: center;
+    text-shadow: 3px 3px black;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 96%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .about i { 
+    color: #a6acaf;
+  }
+
+  .about h3 { 
+    text-shadow: 3px 3px black;
+  }
+
+  .sosmed a{ 
+    color:#a6acaf;
+    text-decoration: none;
+    text-shadow: 3px 3px black;
+  }
+
+  .sosmed p { 
+    font-size: 18px;
+    text-shadow: 3px 3px black;
+  }
+
+  /* Project 1 */
+.project1 { 
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1745c4 ;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project1 h3 { 
+  text-shadow: 2px 2px black;
+}
+
+.project1 img { 
+  border-radius: 5px;
+  width: 180px;
+  height: 200px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project1 a { 
+  text-decoration: none;
+  color: white;
+}
+
+/* Project 2 */ 
+.project2 { 
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1745c4 ;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project2 h3 { 
+  text-shadow: 2px 2px black;
+}
+
+.project2 img { 
+  border-radius: 5px;
+  width: 180px;
+  height: 200px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project2 a { 
+  text-decoration: none;
+  color: white;
+}
+
+/* Project 3 */ 
+.project3 { 
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1745c4 ;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project3 h3 { 
+  text-shadow: 2px 2px black;
+}
+
+.project3 img { 
+  border-radius: 5px;
+  width: 180px;
+  height: 200px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project3 a { 
+  text-decoration: none;
+  color: white;
+}
+
+footer { 
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+/* Project 3 */ 
+.About-Me { 
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1745c4 ;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.About-Me h3 { 
+  text-shadow: 2px 2px black;
+}
+
+.About-Me img { 
+  border-radius: 5px;
+  width: 230px;
+  height: 300px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.About-Me a { 
+  text-decoration: none;
+  color: white;
+}
+
+footer a { 
+  text-decoration: none;
+  color: aqua ;
+}
+
+.content h3 { 
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
